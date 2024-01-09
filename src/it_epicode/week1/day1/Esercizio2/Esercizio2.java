@@ -23,5 +23,7 @@ public class Esercizio2 {
         for (int i = parole.length - 1; i >= 0; i--) {
             System.out.print(parole[i]);
         }
+
     }
+
 }
