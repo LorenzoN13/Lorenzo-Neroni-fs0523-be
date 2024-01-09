@@ -8,7 +8,7 @@ public class Eserczio1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Inserisci la parola");
 
-        String p = scanner.next();
+        String p = scanner.nextLine();
 
         Boolean stringaPariDispari = stringaPariDispari(p);
         System.out.println(stringaPariDispari);
