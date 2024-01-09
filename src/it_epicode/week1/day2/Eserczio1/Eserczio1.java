@@ -29,7 +29,7 @@ public class Eserczio1 {
         }
     }
     public static boolean annoBisestile(int n){
-        if ((n % 4) == 0 && n % 100 != 0 || n % 100 != 0){
+        if ((n % 4) == 0 && n % 100 != 0 || n % 400 != 0){
             return true;
         }else{
             return false;
