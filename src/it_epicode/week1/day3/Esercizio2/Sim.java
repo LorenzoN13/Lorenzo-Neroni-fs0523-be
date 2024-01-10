@@ -11,7 +11,6 @@ public class Sim {
         this.numeroTelefono = numeroTelefono;
         this.credito = credito;
         this.ultimeChiamate = new Chiamata[5];
-        this.numeroChiamate = 0;
     }
     public long getNumeroTelefono() {
         return numeroTelefono;
