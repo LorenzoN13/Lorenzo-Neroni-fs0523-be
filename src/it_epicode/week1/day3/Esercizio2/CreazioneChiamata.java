@@ -17,6 +17,21 @@ public class CreazioneChiamata {
         Sim sim = new Sim(numeroTelefono, ric);
         sim.effettuaChiamata(30, 0.05);
 
+        String[] informazioniChiamate = {
+                "123456789,5",
+                "555444333,8",
+                "777888999,10"
+        };
+
+        // Aggiungere le chiamate all'array di Chiamata
+        for (String infoChiamata : informazioniChiamate) {
+            String[] info = infoChiamata.split(",");
+            String numero = info[0];
+            int durata = Integer.parseInt(info[1]);
+
+        }
+
+
         sim.stampaDatiSIM();
     }
 }

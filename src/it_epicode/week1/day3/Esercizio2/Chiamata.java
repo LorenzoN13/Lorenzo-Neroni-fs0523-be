@@ -4,7 +4,7 @@ public class Chiamata {
     private int durataMinuti;
     private long numeroChiamato;
 
-    public Chiamata(int durataMinuti, long numeroChiamato) {
+    public Chiamata(int durataMinuti, long numeroChiamato ) {
         this.durataMinuti = durataMinuti;
         this.numeroChiamato = numeroChiamato;
     }
@@ -16,4 +16,5 @@ public class Chiamata {
     public long getNumeroChiamato() {
         return numeroChiamato;
     }
+
 }
