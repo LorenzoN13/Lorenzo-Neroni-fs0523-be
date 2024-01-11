@@ -17,6 +17,12 @@ public class CreazioneChiamata {
         Sim sim = new Sim(numeroTelefono, ric);
         sim.effettuaChiamata(30, 0.05);
 
+        sim.aggiungiChiamata(new Chiamata(23, 65325674));
+        sim.aggiungiChiamata(new Chiamata(12, 32461261));
+        sim.aggiungiChiamata(new Chiamata(2, 24352462));
+        sim.aggiungiChiamata(new Chiamata(5, 34535355));
+        sim.aggiungiChiamata(new Chiamata(56, 54352345));
+
         sim.stampaDatiSIM();
     }
 }
