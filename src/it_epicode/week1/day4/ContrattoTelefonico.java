@@ -45,4 +45,14 @@ public class ContrattoTelefonico {
         costoTelefonate += costo;
     }
 
+    @Override
+    public String toString() {
+        return "ContrattoTelefonico{" +
+                "numeroTel=" + numeroTel +
+                ", utente='" + utente + '\'' +
+                ", costoTelefonate=" + costoTelefonate +
+                ", numeroTelefonate=" + numeroTelefonate +
+                ", COSTO_AL_SECONDO=" + COSTO_AL_SECONDO +
+                '}';
+    }
 }
