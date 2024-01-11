@@ -3,11 +3,11 @@ package it_epicode.week1.day4;
 public class ContrattoTelefonico {
     private int numeroTel;
     private String utente;
-    protected double costoTelefonate;
+    private double costoTelefonate;
 
-    protected int numeroTelefonate;
+    private int numeroTelefonate;
 
-    protected final double COSTO_AL_SECONDO;
+    private final double COSTO_AL_SECONDO;
 
     public ContrattoTelefonico(int numeroTel, String utente, double COSTO_AL_SECONDO) {
         this.numeroTel = numeroTel;

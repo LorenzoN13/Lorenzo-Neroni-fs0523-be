@@ -10,9 +10,10 @@ public class ContrattoMobile extends ContrattoTelefonico {
         this.COSTO_ALLA_RISPOSTA = COSTO_ALLA_RISPOSTA;
     }
 
-    @Override
+    @Override //<--  si chiama ANNOTAZIONE
     public void aggiornaBoletta(int secondi) {
-        numeroTelefonate ++;
-        costoTelefonate += secondi * COSTO_AL_SECONDO;
+        super.aggiornaBoletta(secondi);
+        aggiungiCosti(COSTO_ALLA_RISPOSTA);// si poteva scrivere anche super.aggiungiCosti(COSTO_ALLA_RISPOSTA);
+
     }
 }
