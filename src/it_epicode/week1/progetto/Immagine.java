@@ -8,12 +8,10 @@ public class Immagine implements Multimediale {
         this.titolo = titolo;
         this.luminosita = luminosita;
     }
-
     @Override
     public void esegui() {
         mostra();
     }
-
     public void mostra(){
         System.out.println(titolo + ": " + "*".repeat(luminosita));
     }
