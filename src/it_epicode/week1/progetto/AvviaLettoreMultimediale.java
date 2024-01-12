@@ -20,7 +20,7 @@ public class AvviaLettoreMultimediale {
             if (tipoMedia.equals("immagine")){
                 System.out.println("Inserisci luminosità: ");
                 int luminosita = Integer.parseInt(scanner.nextLine());
-                lettore.inserisciMedia((Avvia) new Immagine(titolo,luminosita), i);
+                lettore.inserisciMedia(new Immagine(titolo,luminosita), i);
             } else if (tipoMedia.equals("video")) {
                 System.out.print("Inserisci durata: ");
                 int durata = Integer.parseInt(scanner.nextLine());
@@ -36,8 +36,6 @@ public class AvviaLettoreMultimediale {
                 System.out.println("Tipo di media non valido. I tipi supportati sono immagine e video.");
                 i--;
             }
-            i++;
         }
-        lettore.avvia();
     }
 }

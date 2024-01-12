@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class LettoreMultimediale {
     Scanner scanner = new Scanner(System.in);
-    private Avvia[] listaMultimediale = new Avvia[5];
+    private Multimediale[] listaMultimediale = new Avvia[5];
 
-    public void inserisciMedia(Avvia media, int i){
+    public void inserisciMedia(Multimediale media, int i){
         listaMultimediale[i] = media;
     }
 
