@@ -24,8 +24,10 @@ public class LettoreMultimediale {
             System.out.println("0. Uscita");
             System.out.print("Seleziona un media da eseguire (1-5 o 0 per uscire): ");
 
+            int opzione;
+
             try{
-                int opzione = Integer.parseInt(scanner.nextLine());
+                opzione = Integer.parseInt(scanner.nextLine());
 
                 if (opzione == 0){
                     break;
