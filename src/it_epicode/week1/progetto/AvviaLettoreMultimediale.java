@@ -5,11 +5,9 @@ import java.util.Scanner;
 public class AvviaLettoreMultimediale {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         LettoreMultimediale lettore = new LettoreMultimediale();
 
         int i = 0;
-
         while (i < 5){
             System.out.println("Inserisci il tipo di media tra: IMMAGINE O VIDEO: ");
             String tipoMedia = scanner.nextLine().toLowerCase();

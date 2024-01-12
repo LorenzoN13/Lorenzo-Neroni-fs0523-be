@@ -12,12 +12,10 @@ public class Video implements Avvia{
         this.volume = volume;
         this.luminosita = luminosita;
     }
-
     @Override
     public void esegui() {
         play();
     }
-
     @Override
     public void play() {
         int i = 0;
@@ -26,15 +24,12 @@ public class Video implements Avvia{
             i++;
         }
     }
-
     @Override
     public void aumentaLuminosita() {
         luminosita ++;
     }
-
     @Override
     public void diminuisciLuminosita() {
         luminosita--;
     }
-
 }

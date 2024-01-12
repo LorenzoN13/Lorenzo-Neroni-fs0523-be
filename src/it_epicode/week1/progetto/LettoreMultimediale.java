@@ -9,7 +9,6 @@ public class LettoreMultimediale {
     public void inserisciMedia(Multimediale media, int i){
         listaMultimediale[i] = media;
     }
-
     public void avvia() {
         while (true) {
             System.out.println("\nMenu:");
@@ -25,7 +24,6 @@ public class LettoreMultimediale {
             int opzione;
             try {
                 opzione = Integer.parseInt(scanner.nextLine());
-
                 if (opzione == 0) {
                     break;
                 } else if (opzione >= 1 && opzione <= 5 && listaMultimediale[opzione - 1] != null) {
