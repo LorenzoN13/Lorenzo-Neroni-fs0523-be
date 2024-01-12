@@ -36,6 +36,7 @@ public class AvviaLettoreMultimediale {
                 System.out.println("Tipo di media non valido. I tipi supportati sono immagine e video.");
                 i--;
             }
+            i++;
         }
     }
 }
