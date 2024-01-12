@@ -19,7 +19,7 @@ public class AvviaLettoreMultimediale {
 
             if (tipoMedia.equals("immagine")){
                 System.out.println("Inserisci luminosità: ");
-                int luminosita = Integer.parseInt(scanner.nextLine());
+                int luminosita = scanner.nextInt();
                 lettore.inserisciMedia(new Immagine(titolo,luminosita), i);
             } else if (tipoMedia.equals("video")) {
                 System.out.print("Inserisci durata: ");
