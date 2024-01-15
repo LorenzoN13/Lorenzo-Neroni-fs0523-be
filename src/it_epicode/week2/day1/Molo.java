@@ -35,11 +35,11 @@ public class Molo {
         return true;
     }
 
-    public void assegnaPostoBarca(String b, int n){
+    public void assegnaPostoBarca(String b, int n) throws PostoOccupatoException {
         if (libero(n)){
             barche[n] = b;
         } else {
-            throw
+            throw new PostoOccupatoException("Il posto " + n + " è occupato.");
         }
     }
 }
